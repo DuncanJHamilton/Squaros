@@ -1,0 +1,59 @@
+﻿<Window x:Class="TheGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Squaos" Height="500" Width="500"
+        KeyDown="Grid_KeyDown"
+        KeyUp="Window_KeyUp" ResizeMode="NoResize"
+        >
+    <Grid x:Name="mainGrid" >
+        <!--todo: pause handler-->
+
+        <Rectangle x:Name="rectPlayer" Stroke="Black" Fill="#FF0018FF" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="lblScore" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe UI Black"></TextBlock>
+
+        <Grid x:Name="MainMenu" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="300">
+            <StackPanel Orientation="Vertical" Background="White" Visibility="Visible" >
+                <Button x:Name="diffEasy" Background="#FF00FF0C" Click="diffEasy_Click" Margin="50,10" Content="Easy" Height="28" FontSize="18" FontFamily="Segoe WP Black"/>
+                <Button x:Name="diffMedium" Background="#FFFFF300" Click="diffMedium_Click" Margin="50,10" Content="Medium" FontFamily="Segoe WP Black" FontSize="18"/>
+                <Button x:Name="diffHard" Background="#FFFF0C00" Click="diffHard_Click" Margin="50,10" Content="Hard" FontFamily="Segoe WP Black" FontSize="18"/>
+                <Button x:Name="btnHelp" Background="#FFFF9B0B" Click="btnHelp_Click" Margin="50,10" Content="Instructions" FontFamily="Segoe WP Black" FontSize="18"/>
+                <Button x:Name="btnExitGame" Background="#FF000CFF" Click="btnExitGame_Click" Width="200" Margin="50,10" Content="Exit" FontFamily="Segoe WP Black" FontSize="18" BorderBrush="Black" Foreground="White"/>
+
+                <StackPanel Orientation="Horizontal" Width="200">
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="Easy" ></Label>
+                        <Label x:Name="lblEasy" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Margin="40,0,40,0">
+                        <Label Content="Medium" ></Label>
+                        <Label x:Name="lblMedium" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                        <Label Content="Hard"  ></Label>
+                        <Label x:Name="lblHard" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="237" Background="#FF3AFF00" x:Name="gridHighScore" Visibility="Collapsed" Margin="97,86,97,148">
+            <Label Content="New Highscore!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Segoe WP Black" Margin="10,30,5,114"></Label>
+            <Label Content="Press Enter" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Segoe WP Black" Margin="48,100,48,44"></Label>
+        </Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="237" Background="Red" x:Name="gridGameOver" Visibility="Collapsed" Margin="97,86,97,148">
+            <Label Content="Game Over" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Segoe WP Black" Margin="10,30,5,114"></Label>
+            <Label Content="Press Space to Retry" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Segoe WP Black" Margin="48,91,48,75"></Label>
+            <Label Content="Press Enter for Menu" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Segoe WP Black" Margin="49,125,54,41"></Label>
+        </Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="394" Height="338" Background="#FFFFA200" x:Name="gridInstructions" Visibility="Collapsed" Margin="55,48,45,85">
+            <StackPanel Orientation="vertical">
+                <Label Content="Instructions:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Segoe WP Black"></Label>
+                <Label Content="Use the Arrow keys to move your blue" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Segoe WP Black"   ></Label>
+                <Label Content="square around the screen. Hitting a" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Segoe WP Black"   ></Label>
+                <Label Content="green square gives you one point" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Segoe WP Black"  ></Label>
+                <Label Content="and increases your speed and size." HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Segoe WP Black" ></Label>
+                <Label Content="If you hit a red squre, you lose!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Segoe WP Black"></Label>
+                <Button x:Name="btnClose" Background="#FF0499D1" Click="btnClose_Click" Margin="50,10" Content="Return to menu" FontFamily="Segoe WP Black" FontSize="18"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

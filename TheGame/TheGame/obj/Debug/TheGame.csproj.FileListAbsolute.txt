@@ -1,0 +1,17 @@
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\bin\Debug\TheGame.exe.config
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\bin\Debug\TheGame.exe
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\bin\Debug\TheGame.pdb
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.csprojResolveAssemblyReference.cache
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\MainWindow.baml
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\MainWindow.g.cs
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\App.g.cs
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame_MarkupCompile.cache
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.g.resources
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.Properties.Resources.resources
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.csproj.GenerateResource.Cache
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.exe
+c:\users\duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.pdb
+C:\Users\Duncan\documents\visual studio 2013\Projects\TheGame\TheGame\bin\Debug\TheGame.exe.manifest
+C:\Users\Duncan\documents\visual studio 2013\Projects\TheGame\TheGame\bin\Debug\TheGame.application
+C:\Users\Duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.exe.manifest
+C:\Users\Duncan\documents\visual studio 2013\Projects\TheGame\TheGame\obj\Debug\TheGame.application
